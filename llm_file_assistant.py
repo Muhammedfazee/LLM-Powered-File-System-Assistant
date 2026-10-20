@@ -4,12 +4,17 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 from pathlib import Path
 from typing import Any
 
 from openai import OpenAI
 
 from fs_tools import list_files, read_file, search_in_file, write_file
+
+
+OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
+DEFAULT_MODEL = "openrouter/free"
 
 
 TOOL_DEFINITIONS = [
@@ -24,7 +29,6 @@ TOOL_DEFINITIONS = [
                 "required": ["filepath"],
                 "additionalProperties": False,
             },
-            "strict": True,
         },
     },
     {
@@ -41,7 +45,6 @@ TOOL_DEFINITIONS = [
                 "required": ["directory", "extension"],
                 "additionalProperties": False,
             },
-            "strict": True,
         },
     },
     {
@@ -58,7 +61,6 @@ TOOL_DEFINITIONS = [
                 "required": ["filepath", "content"],
                 "additionalProperties": False,
             },
-            "strict": True,
         },
     },
     {
@@ -75,7 +77,6 @@ TOOL_DEFINITIONS = [
                 "required": ["filepath", "keyword"],
                 "additionalProperties": False,
             },
-            "strict": True,
         },
     },
 ]
@@ -112,9 +113,19 @@ def _execute_tool(
     raise ValueError(f"Unknown tool requested: {name}")
 
 
+def create_client() -> OpenAI:
+    """Create an OpenRouter client using the local environment API key."""
+    api_key = os.environ.get("OPENROUTER_API_KEY")
+    if not api_key:
+        raise RuntimeError(
+            "OPENROUTER_API_KEY is not set. Set it in your environment before running."
+        )
+    return OpenAI(base_url=OPENROUTER_BASE_URL, api_key=api_key)
+
+
 def run_assistant(query: str, workspace: Path, model: str) -> str:
     """Run the LLM tool-call loop and return its final response."""
-    client = OpenAI()
+    client = create_client()
     workspace = workspace.resolve()
     messages = [
         {
@@ -169,7 +180,9 @@ def main() -> None:
         help="Directory that tool calls are allowed to access",
     )
     parser.add_argument(
-        "--model", default="gpt-4o-mini", help="OpenAI model with tool-calling support"
+        "--model",
+        default=DEFAULT_MODEL,
+        help="OpenRouter model with tool-calling support (default: openrouter/free)",
     )
     args = parser.parse_args()
 

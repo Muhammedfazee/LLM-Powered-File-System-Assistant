@@ -1,14 +1,15 @@
 # LLM-Powered File System Assistant
 
-A small Python assistant that uses OpenAI function calling to read, search, list,
-and create files in a chosen workspace. The LLM decides which tool to call; the
-Python application validates and executes each call, then returns its result to
-the model.
+A small Python assistant that uses OpenRouter tool calling to read, search,
+list, and create files in a chosen workspace. It uses the OpenAI-compatible
+Python SDK with OpenRouter's API endpoint. The LLM decides which tool to call;
+the Python application validates and executes each call, then returns its
+result to the model.
 
 ## Requirements
 
 - Python 3.10+
-- An OpenAI API key
+- An OpenRouter API key
 
 ## Setup
 
@@ -21,13 +22,14 @@ py -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-Set your API key in the current PowerShell session:
+Set your OpenRouter API key in the current PowerShell session:
 
 ```powershell
-$env:OPENAI_API_KEY = "your-api-key"
+$env:OPENROUTER_API_KEY = "your-api-key"
 ```
 
-Do not put API keys in source files or commit them.
+The assistant reads this environment variable when it creates the OpenRouter
+client. Do not put API keys in source files or commit them.
 
 ## Run
 
@@ -44,10 +46,11 @@ python llm_file_assistant.py "Create a summary file for resume_john_doe.txt"
 When `--workspace .\resumes` is used, refer to a resume as
 `resume_john_doe.txt` (not `resumes/resume_john_doe.txt`).
 
-Choose another model with `--model`, if it supports tool calling:
+The default model is `openrouter/free`. You can choose another OpenRouter model
+with `--model`, provided it supports tool calling:
 
 ```powershell
-python llm_file_assistant.py --model gpt-4o-mini "List the files"
+python llm_file_assistant.py --model "provider/model-name" "List the files"
 ```
 
 ## Tools
