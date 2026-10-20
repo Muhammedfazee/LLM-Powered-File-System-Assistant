@@ -22,14 +22,19 @@ py -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-Set your OpenRouter API key in the current PowerShell session:
+Create a `.env` file in the project root (next to `llm_file_assistant.py`) with
+your OpenRouter API key:
 
-```powershell
-$env:OPENROUTER_API_KEY = "your-api-key"
+```env
+OPENROUTER_API_KEY=your-openrouter-api-key
 ```
 
-The assistant reads this environment variable when it creates the OpenRouter
-client. Do not put API keys in source files or commit them.
+The app loads this file when it starts the OpenRouter client. `.env` is listed
+in `.gitignore`, so it will not be committed. You can start from `.env.example`
+and replace the placeholder locally. Alternatively, set `OPENROUTER_API_KEY` in
+your shell environment.
+
+Never commit your real API key or share it in chat.
 
 ## Run
 

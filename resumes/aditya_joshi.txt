@@ -1,0 +1,42 @@
+Aditya Joshi
+Senior Backend Engineer (Java)
+Hyderabad, India | aditya.joshi85@gmail.com | +91 98774 27601
+linkedin.com/in/aditya-joshi
+
+SUMMARY
+Senior Backend Engineer (Java) with 10+ years of experience building and shipping production systems. Implemented distributed tracing and structured logging across 20 services for faster incident triage. Comfortable owning problems end to end and working directly with product stakeholders.
+
+WORK EXPERIENCE
+Senior Backend Engineer (Java) - Tata Consultancy Services
+Jun 2023 - Present | Gurugram
+- Implemented distributed tracing and structured logging across 20 services for faster incident triage.
+- Tuned JVM garbage collection and connection pooling, cutting p99 latency from 900 ms to 180 ms.
+- Led code review standards and mentored four engineers through the team's Spring Boot migration.
+
+Backend Engineer (Java) - Zomato Tech
+Apr 2019 - Sep 2023 | Pune
+- Led code review standards and mentored four engineers through the team's Spring Boot migration.
+- Built order management microservices in Spring Boot processing 12M transactions per day.
+
+Junior Backend Engineer (Java) - Tata Consultancy Services
+Oct 2016 - Feb 2019 | Kolkata
+- Migrated synchronous service calls to Kafka event streaming, improving peak-hour availability from 99.5% to 99.95%.
+
+TECHNICAL SKILLS
+Languages: Java, SQL, Kotlin
+Frameworks: Spring Boot, Hibernate, REST API, gRPC, microservices
+Data: PostgreSQL, MySQL, MongoDB, Redis, Kafka
+Platform: Docker, Kubernetes, AWS, Jenkins, CI/CD, Maven
+
+PROJECTS
+- Inventory reservation service using optimistic locking and saga-based compensation.
+- gRPC internal service mesh replacing chatty REST calls between core services.
+
+EDUCATION
+M.S. in Computer Science
+Manipal Institute of Technology, 2015
+M.Tech in Computer Science
+Vellore Institute of Technology, 2017
+
+CERTIFICATIONS
+- Oracle Certified Professional: Java SE Programmer

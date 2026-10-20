@@ -8,6 +8,7 @@ import os
 from pathlib import Path
 from typing import Any
 
+from dotenv import load_dotenv
 from openai import OpenAI
 
 from fs_tools import list_files, read_file, search_in_file, write_file
@@ -114,7 +115,8 @@ def _execute_tool(
 
 
 def create_client() -> OpenAI:
-    """Create an OpenRouter client using the local environment API key."""
+    """Create an OpenRouter client using the project .env or environment key."""
+    load_dotenv(Path(__file__).resolve().with_name(".env"))
     api_key = os.environ.get("OPENROUTER_API_KEY")
     if not api_key:
         raise RuntimeError(

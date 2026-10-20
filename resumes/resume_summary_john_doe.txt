@@ -1,0 +1,19 @@
+# Summary of John Doe's Resume
+
+**Name:** John Doe
+**Role:** Software Engineer
+
+**Experience:**
+- Backend Engineer at Northstar Apps (2021-2025)
+  - Built Python services for processing customer orders
+  - Improved API response times by 30% through query and caching improvements
+
+**Skills:**
+- Python, Django, PostgreSQL, Docker, AWS, REST APIs, Automated Testing
+
+**Education:**
+- B.S. Computer Science, Example State University (2020)
+
+**Key Highlights:**
+- 5 years of experience building reliable web services
+- Demonstrated ability to optimize performance and scale backend systems

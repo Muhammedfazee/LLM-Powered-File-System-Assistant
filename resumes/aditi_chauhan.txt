@@ -1,0 +1,36 @@
+Aditi Chauhan
+Business Intelligence Developer
+Hyderabad, India | aditi.chauhan54@outlook.com | +91 73458 66822
+linkedin.com/in/aditi-chauhan
+
+SUMMARY
+Business Intelligence Developer with 5+ years of experience building and shipping production systems. Built SSIS and Azure Data Factory pipelines feeding a Kimball-style star schema. Comfortable owning problems end to end and working directly with product stakeholders.
+
+WORK EXPERIENCE
+Senior Business Intelligence Developer - Cognizant Digital
+Oct 2023 - Present | Bengaluru
+- Built SSIS and Azure Data Factory pipelines feeding a Kimball-style star schema.
+- Delivered 40 Power BI reports with row-level security for 900 users across six regions.
+- Established version control and deployment pipelines for BI artefacts.
+
+Business Intelligence Developer - Persistent Systems
+May 2021 - Nov 2023 | Hyderabad
+- Established version control and deployment pipelines for BI artefacts.
+- Redesigned the semantic model in DAX, cutting average report render time from 14 s to 3 s.
+
+TECHNICAL SKILLS
+BI: Power BI, Tableau, Looker, DAX, data visualization, dashboarding
+Data: SQL, data warehousing, dimensional model, star schema, ETL, SSIS
+Cloud: Azure, Snowflake, BigQuery
+Languages: SQL, Python
+
+PROJECTS
+- Supply chain control tower dashboard with drill-through to shipment level.
+- Finance close automation reducing monthly reporting cycle by four days.
+
+EDUCATION
+M.Sc in Information Systems
+Anna University, 2019
+
+CERTIFICATIONS
+- Microsoft Certified: Power BI Data Analyst Associate
