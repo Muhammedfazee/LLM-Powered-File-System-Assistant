@@ -1,0 +1,16 @@
+Maya Shah
+Data Analyst | maya.shah@example.invalid
+
+SUMMARY
+Data analyst with 4 years of experience turning business data into useful insights.
+
+SKILLS
+SQL, Python, pandas, Tableau, Excel, statistics, data visualization.
+
+EXPERIENCE
+Data Analyst, Cedar Analytics (2022-2025)
+- Automated recurring reports with Python and SQL.
+- Built Tableau dashboards used by operations and finance teams.
+
+EDUCATION
+M.S. Applied Analytics, Example Institute, 2021

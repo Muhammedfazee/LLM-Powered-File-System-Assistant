@@ -1,0 +1,16 @@
+Alex Rivera
+Frontend Developer | alex.rivera@example.invalid
+
+SUMMARY
+Frontend developer with 3 years of experience creating accessible web interfaces.
+
+SKILLS
+JavaScript, TypeScript, React, HTML, CSS, accessibility, Jest.
+
+EXPERIENCE
+UI Developer, Bright Path Software (2022-2025)
+- Delivered reusable React components for a customer support portal.
+- Added automated UI tests and improved keyboard navigation.
+
+EDUCATION
+B.A. Information Systems, Sample College, 2021
