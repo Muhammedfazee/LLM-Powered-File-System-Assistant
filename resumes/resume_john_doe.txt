@@ -1,0 +1,16 @@
+John Doe
+Software Engineer | john.doe@example.invalid
+
+SUMMARY
+Software engineer with 5 years of experience building reliable web services.
+
+SKILLS
+Python, Django, PostgreSQL, Docker, AWS, REST APIs, automated testing.
+
+EXPERIENCE
+Backend Engineer, Northstar Apps (2021-2025)
+- Built Python services processing customer orders.
+- Improved API response times by 30% through query and caching improvements.
+
+EDUCATION
+B.S. Computer Science, Example State University, 2020

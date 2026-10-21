@@ -1,0 +1,16 @@
+Priya Nair
+Machine Learning Engineer | priya.nair@example.invalid
+
+SUMMARY
+Machine learning engineer with 5 years of experience deploying data products.
+
+SKILLS
+Python, scikit-learn, PyTorch, feature engineering, Docker, model monitoring.
+
+EXPERIENCE
+ML Engineer, Bluebird Research (2020-2025)
+- Trained and evaluated classification models for document processing.
+- Created Python pipelines and monitored model quality after deployment.
+
+EDUCATION
+M.S. Computer Science, Example Technical University, 2020

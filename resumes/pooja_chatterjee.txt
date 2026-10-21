@@ -1,0 +1,36 @@
+Pooja Chatterjee
+Backend Engineer (Go)
+Noida, India | pooja.chatterjee6@gmail.com | +91 80929 27146
+linkedin.com/in/pooja-chatterjee
+
+PROFESSIONAL SUMMARY
+Backend Engineer (Go) with 5+ years of experience building and shipping production systems. Wrote high-throughput ingestion services in Go sustaining 80k events per second with sub-10 ms p95. Comfortable owning problems end to end and working directly with product stakeholders.
+
+TECHNICAL SKILLS
+Languages: Go, Python, SQL
+Frameworks: gRPC, REST API, microservices, protobuf
+Data: PostgreSQL, Redis, Kafka, Cassandra
+Platform: Kubernetes, Docker, Terraform, AWS, Prometheus, Grafana
+
+WORK EXPERIENCE
+Senior Backend Engineer (Go) - Mindtree Digital
+Nov 2024 - Present | Noida
+- Wrote high-throughput ingestion services in Go sustaining 80k events per second with sub-10 ms p95.
+- Contributed to the internal service scaffolding used to bootstrap 30+ new microservices.
+- Built a rate limiting and quota service backed by Redis used by every public API at the company.
+
+Backend Engineer (Go) - Myntra Designs
+Apr 2021 - Dec 2024 | Gurugram
+- Built a rate limiting and quota service backed by Redis used by every public API at the company.
+- Replaced a Python worker fleet with Go consumers, cutting compute cost 45% at identical throughput.
+
+PROJECTS
+- Distributed job scheduler with leader election and at-least-once delivery.
+- Edge proxy with connection pooling and circuit breaking.
+
+EDUCATION
+MCA in Computer Science
+IIIT Hyderabad Institute, 2020
+
+CERTIFICATIONS
+- Certified Kubernetes Administrator (CKA)

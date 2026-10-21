@@ -1,0 +1,16 @@
+Sam Chen
+Product Manager | sam.chen@example.invalid
+
+SUMMARY
+Product manager with 6 years of experience delivering customer-focused software.
+
+SKILLS
+Product strategy, user research, roadmaps, analytics, Agile, Jira.
+
+EXPERIENCE
+Product Manager, Greenfield Tools (2019-2025)
+- Led discovery and launch of workflow improvements for small businesses.
+- Used product analytics and customer interviews to prioritize roadmap work.
+
+EDUCATION
+B.S. Business Information Technology, Example University, 2018
